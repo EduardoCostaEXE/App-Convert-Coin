@@ -9,7 +9,6 @@ import UIKit
 
 class ConversionViewController: UIViewController {
     
-    // Instância da View personalizada
     let conversionView = ConversionView()
     let viewModel = ConversionViewModel()
     
@@ -21,11 +20,9 @@ class ConversionViewController: UIViewController {
     }
     
     private func setupView() {
-        // Adicionando a view personalizada ao view controller
         view.addSubview(conversionView)
         conversionView.translatesAutoresizingMaskIntoConstraints = false
         
-        // Definindo as constraints para a view personalizada
         NSLayoutConstraint.activate([
             conversionView.topAnchor.constraint(equalTo: view.topAnchor),
             conversionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),

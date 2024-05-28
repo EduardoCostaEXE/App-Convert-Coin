@@ -14,6 +14,7 @@
 		4D68C5A12C06321000C36FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D68C59F2C06321000C36FB5 /* LaunchScreen.storyboard */; };
 		4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */; };
 		4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */; };
+		4D68C5B12C06760000C36FB5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B02C06760000C36FB5 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4D68C5A22C06321000C36FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
 		4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
+		4D68C5B02C06760000C36FB5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4D68C5A82C065ACE00C36FB5 /* View */,
 				4D68C5A92C065AD700C36FB5 /* Controller */,
 				4D68C5AA2C065AE200C36FB5 /* Model */,
+				4D68C5AF2C0675E000C36FB5 /* WebService */,
 				4D68C5942C06320D00C36FB5 /* AppDelegate.swift */,
 				4D68C5962C06320D00C36FB5 /* SceneDelegate.swift */,
 				4D68C59D2C06321000C36FB5 /* Assets.xcassets */,
@@ -92,6 +95,14 @@
 				4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4D68C5AF2C0675E000C36FB5 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				4D68C5B02C06760000C36FB5 /* WebService.swift */,
+			);
+			path = WebService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D68C5B12C06760000C36FB5 /* WebService.swift in Sources */,
 				4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */,
 				4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */,
 				4D68C5992C06320D00C36FB5 /* ConversionViewController.swift in Sources */,
