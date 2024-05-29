@@ -15,6 +15,9 @@
 		4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */; };
 		4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */; };
 		4D68C5B12C06760000C36FB5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B02C06760000C36FB5 /* WebService.swift */; };
+		4D68C5B42C06C81A00C36FB5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B32C06C81A00C36FB5 /* String.swift */; };
+		4D68C5B82C06C85400C36FB5 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B72C06C85400C36FB5 /* Enums.swift */; };
+		4D68C5BA2C06C88F00C36FB5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B92C06C88F00C36FB5 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
 		4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
 		4D68C5B02C06760000C36FB5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4D68C5B32C06C81A00C36FB5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4D68C5B72C06C85400C36FB5 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4D68C5B92C06C88F00C36FB5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		4D68C5932C06320D00C36FB5 /* Convert Coin */ = {
 			isa = PBXGroup;
 			children = (
+				4D68C5B52C06C83300C36FB5 /* Suport */,
 				4D68C5A82C065ACE00C36FB5 /* View */,
 				4D68C5A92C065AD700C36FB5 /* Controller */,
 				4D68C5AA2C065AE200C36FB5 /* Model */,
@@ -103,6 +110,32 @@
 				4D68C5B02C06760000C36FB5 /* WebService.swift */,
 			);
 			path = WebService;
+			sourceTree = "<group>";
+		};
+		4D68C5B22C06C7FA00C36FB5 /* Exxtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D68C5B32C06C81A00C36FB5 /* String.swift */,
+				4D68C5B92C06C88F00C36FB5 /* UIView.swift */,
+			);
+			path = Exxtensions;
+			sourceTree = "<group>";
+		};
+		4D68C5B52C06C83300C36FB5 /* Suport */ = {
+			isa = PBXGroup;
+			children = (
+				4D68C5B62C06C83D00C36FB5 /* Enum */,
+				4D68C5B22C06C7FA00C36FB5 /* Exxtensions */,
+			);
+			path = Suport;
+			sourceTree = "<group>";
+		};
+		4D68C5B62C06C83D00C36FB5 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				4D68C5B72C06C85400C36FB5 /* Enums.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +212,10 @@
 				4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */,
 				4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */,
 				4D68C5992C06320D00C36FB5 /* ConversionViewController.swift in Sources */,
+				4D68C5B42C06C81A00C36FB5 /* String.swift in Sources */,
 				4D68C5952C06320D00C36FB5 /* AppDelegate.swift in Sources */,
+				4D68C5B82C06C85400C36FB5 /* Enums.swift in Sources */,
+				4D68C5BA2C06C88F00C36FB5 /* UIView.swift in Sources */,
 				4D68C5972C06320D00C36FB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
