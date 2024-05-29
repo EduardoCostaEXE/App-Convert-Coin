@@ -1,5 +1,5 @@
 //
-//  ConversionView.swift
+//  CoinConverterView.swift
 //  Convert Coin
 //
 //  Created by Cabral Costa, Eduardo on 28/05/24.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class ConversionView: UIView {
-    
+class CoinConverterView: UIView {
+
     let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "Conversor de Moedas"
@@ -150,7 +150,6 @@ class ConversionView: UIView {
         addSubview(currencyStack)
         addSubview(resultStack)
         
-        // Layout dos componentes
         setupConstraints(valueStack: valueStack, currencyStack: currencyStack, resultStack: resultStack)
     }
     

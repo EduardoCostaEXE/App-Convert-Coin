@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D4B05CE2C076607003E57B0 /* CoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05CD2C076607003E57B0 /* CoinResponse.swift */; };
+		4D4B05D12C07670B003E57B0 /* CoinConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05D02C07670B003E57B0 /* CoinConverterView.swift */; };
+		4D4B05D42C076B37003E57B0 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05D32C076B37003E57B0 /* WebService.swift */; };
+		4D4B05DB2C0771E5003E57B0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05DA2C0771E5003E57B0 /* UIView.swift */; };
+		4D4B05DD2C077280003E57B0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05DC2C077280003E57B0 /* String.swift */; };
+		4D4B05E02C07A275003E57B0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05DF2C07A275003E57B0 /* Enums.swift */; };
+		4D4B05E32C07A3A0003E57B0 /* CoinConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05E22C07A3A0003E57B0 /* CoinConverterViewModel.swift */; };
+		4D4B05E62C07A62D003E57B0 /* CoinConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B05E52C07A62D003E57B0 /* CoinConverterController.swift */; };
 		4D68C5952C06320D00C36FB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5942C06320D00C36FB5 /* AppDelegate.swift */; };
 		4D68C5972C06320D00C36FB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5962C06320D00C36FB5 /* SceneDelegate.swift */; };
-		4D68C5992C06320D00C36FB5 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5982C06320D00C36FB5 /* ConversionViewController.swift */; };
 		4D68C59E2C06321000C36FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D68C59D2C06321000C36FB5 /* Assets.xcassets */; };
 		4D68C5A12C06321000C36FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D68C59F2C06321000C36FB5 /* LaunchScreen.storyboard */; };
-		4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */; };
-		4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */; };
-		4D68C5B12C06760000C36FB5 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B02C06760000C36FB5 /* WebService.swift */; };
-		4D68C5B42C06C81A00C36FB5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B32C06C81A00C36FB5 /* String.swift */; };
-		4D68C5B82C06C85400C36FB5 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B72C06C85400C36FB5 /* Enums.swift */; };
-		4D68C5BA2C06C88F00C36FB5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68C5B92C06C88F00C36FB5 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D4B05CD2C076607003E57B0 /* CoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinResponse.swift; sourceTree = "<group>"; };
+		4D4B05D02C07670B003E57B0 /* CoinConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConverterView.swift; sourceTree = "<group>"; };
+		4D4B05D32C076B37003E57B0 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4D4B05DA2C0771E5003E57B0 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		4D4B05DC2C077280003E57B0 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		4D4B05DF2C07A275003E57B0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		4D4B05E22C07A3A0003E57B0 /* CoinConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConverterViewModel.swift; sourceTree = "<group>"; };
+		4D4B05E52C07A62D003E57B0 /* CoinConverterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinConverterController.swift; sourceTree = "<group>"; };
 		4D68C5912C06320D00C36FB5 /* Convert Coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Convert Coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D68C5942C06320D00C36FB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D68C5962C06320D00C36FB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D68C5982C06320D00C36FB5 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		4D68C59D2C06321000C36FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D68C5A02C06321000C36FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D68C5A22C06321000C36FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
-		4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewModel.swift; sourceTree = "<group>"; };
-		4D68C5B02C06760000C36FB5 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		4D68C5B32C06C81A00C36FB5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		4D68C5B72C06C85400C36FB5 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		4D68C5B92C06C88F00C36FB5 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D4B05CC2C0765CF003E57B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05CD2C076607003E57B0 /* CoinResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D4B05CF2C0766A4003E57B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05D02C07670B003E57B0 /* CoinConverterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D4B05D22C076B17003E57B0 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05D32C076B37003E57B0 /* WebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		4D4B05D82C0770BC003E57B0 /* Suport */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05DE2C07A25A003E57B0 /* Enum */,
+				4D4B05D92C0771CE003E57B0 /* Extensions */,
+			);
+			path = Suport;
+			sourceTree = "<group>";
+		};
+		4D4B05D92C0771CE003E57B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05DA2C0771E5003E57B0 /* UIView.swift */,
+				4D4B05DC2C077280003E57B0 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4D4B05DE2C07A25A003E57B0 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05DF2C07A275003E57B0 /* Enums.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		4D4B05E12C07A37F003E57B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05E22C07A3A0003E57B0 /* CoinConverterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D4B05E42C07A57D003E57B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B05E52C07A62D003E57B0 /* CoinConverterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4D68C5882C06320D00C36FB5 = {
 			isa = PBXGroup;
 			children = (
@@ -66,11 +134,12 @@
 		4D68C5932C06320D00C36FB5 /* Convert Coin */ = {
 			isa = PBXGroup;
 			children = (
-				4D68C5B52C06C83300C36FB5 /* Suport */,
-				4D68C5A82C065ACE00C36FB5 /* View */,
-				4D68C5A92C065AD700C36FB5 /* Controller */,
-				4D68C5AA2C065AE200C36FB5 /* Model */,
-				4D68C5AF2C0675E000C36FB5 /* WebService */,
+				4D4B05D22C076B17003E57B0 /* WebService */,
+				4D4B05CC2C0765CF003E57B0 /* Model */,
+				4D4B05CF2C0766A4003E57B0 /* View */,
+				4D4B05E12C07A37F003E57B0 /* ViewModel */,
+				4D4B05E42C07A57D003E57B0 /* Controller */,
+				4D4B05D82C0770BC003E57B0 /* Suport */,
 				4D68C5942C06320D00C36FB5 /* AppDelegate.swift */,
 				4D68C5962C06320D00C36FB5 /* SceneDelegate.swift */,
 				4D68C59D2C06321000C36FB5 /* Assets.xcassets */,
@@ -78,64 +147,6 @@
 				4D68C5A22C06321000C36FB5 /* Info.plist */,
 			);
 			path = "Convert Coin";
-			sourceTree = "<group>";
-		};
-		4D68C5A82C065ACE00C36FB5 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5AB2C065B1000C36FB5 /* ConversionView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		4D68C5A92C065AD700C36FB5 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5982C06320D00C36FB5 /* ConversionViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		4D68C5AA2C065AE200C36FB5 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5AD2C065C8900C36FB5 /* ConversionViewModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		4D68C5AF2C0675E000C36FB5 /* WebService */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5B02C06760000C36FB5 /* WebService.swift */,
-			);
-			path = WebService;
-			sourceTree = "<group>";
-		};
-		4D68C5B22C06C7FA00C36FB5 /* Exxtensions */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5B32C06C81A00C36FB5 /* String.swift */,
-				4D68C5B92C06C88F00C36FB5 /* UIView.swift */,
-			);
-			path = Exxtensions;
-			sourceTree = "<group>";
-		};
-		4D68C5B52C06C83300C36FB5 /* Suport */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5B62C06C83D00C36FB5 /* Enum */,
-				4D68C5B22C06C7FA00C36FB5 /* Exxtensions */,
-			);
-			path = Suport;
-			sourceTree = "<group>";
-		};
-		4D68C5B62C06C83D00C36FB5 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				4D68C5B72C06C85400C36FB5 /* Enums.swift */,
-			);
-			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,14 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D68C5B12C06760000C36FB5 /* WebService.swift in Sources */,
-				4D68C5AE2C065C8900C36FB5 /* ConversionViewModel.swift in Sources */,
-				4D68C5AC2C065B1000C36FB5 /* ConversionView.swift in Sources */,
-				4D68C5992C06320D00C36FB5 /* ConversionViewController.swift in Sources */,
-				4D68C5B42C06C81A00C36FB5 /* String.swift in Sources */,
+				4D4B05CE2C076607003E57B0 /* CoinResponse.swift in Sources */,
+				4D4B05E32C07A3A0003E57B0 /* CoinConverterViewModel.swift in Sources */,
 				4D68C5952C06320D00C36FB5 /* AppDelegate.swift in Sources */,
-				4D68C5B82C06C85400C36FB5 /* Enums.swift in Sources */,
-				4D68C5BA2C06C88F00C36FB5 /* UIView.swift in Sources */,
+				4D4B05E62C07A62D003E57B0 /* CoinConverterController.swift in Sources */,
+				4D4B05D12C07670B003E57B0 /* CoinConverterView.swift in Sources */,
+				4D4B05DB2C0771E5003E57B0 /* UIView.swift in Sources */,
+				4D4B05DD2C077280003E57B0 /* String.swift in Sources */,
+				4D4B05D42C076B37003E57B0 /* WebService.swift in Sources */,
+				4D4B05E02C07A275003E57B0 /* Enums.swift in Sources */,
 				4D68C5972C06320D00C36FB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
